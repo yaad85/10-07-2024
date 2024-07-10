@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Flower Animation</title>
+        <style>
+            .parent {
+                width: 450px;
+                height: 450px;
+                margin: 150px auto;
+                animation: rotate 5s linear infinite;
+                animation-play-state: running;
+                position: relative;
+            }
+          .parent:hover{
+            animation-play-state: paused;
+            
+          }
+            @keyframes rotate {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+            .common {
+                width: 200px;
+                height: 200px;
+                transform-origin: bottom right;
+                border-radius: 0px 200px;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                opacity: 0.8;
+            }
+         .leaf1 {
+                background: red;
+                transform: rotate(0deg);
+            }
+            .leaf2 {
+                background: black;
+                transform: rotate(22.5deg);
+            }
+            .leaf3 {
+                background: green;
+                transform: rotate(45deg);
+            }
+            .leaf4 {
+                background: blue;
+                transform: rotate(60.5deg);
+            }
+            .leaf5 {
+                background: yellow;
+                transform: rotate(90deg);
+            }
+            .leaf6 {
+                background: orange;
+                transform: rotate(112.5deg);
+            }
+            .leaf7 {
+                background: pink;
+                transform: rotate(125deg);
+            }
+            .leaf8 {
+                background: gray;
+                transform: rotate(150.5deg);
+            }
+            .leaf9 {
+                background: brown;
+                transform: rotate(180deg);
+            }
+            .leaf10 {
+                background: darkblue;
+                transform: rotate(200deg);
+            }
+            .leaf11 {
+                background: darkgreen;
+                transform: rotate(225.5deg);
+            }
+            .leaf12 {
+                background: darkred;
+                transform: rotate(250deg);
+            }
+            .leaf13 {
+                background: green;
+                transform: rotate(272.5deg);
+            }
+            .leaf14 {
+                background: red;
+                transform: rotate(303.5deg);
+            }
+            .leaf15 {
+                background: blue;
+                transform: rotate(325deg);
+            }
+            .leaf16 {
+                background: purple;
+                transform: rotate(350.5deg);
+            }
+          .leaf17 {
+              background: purple;
+              transform: rotate(370.5deg);
+          }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="common leaf1"></div>
+            <div class="common leaf2"></div>
+            <div class="common leaf3"></div>
+            <div class="common leaf4"></div>
+            <div class="common leaf5"></div>
+            <div class="common leaf6"></div>
+            <div class="common leaf7"></div>
+            <div class="common leaf8"></div>
+            <div class="common leaf9"></div>
+            <div class="common leaf10"></div>
+            <div class="common leaf11"></div>
+            <div class="common leaf12"></div>
+            <div class="common leaf13"></div>
+            <div class="common leaf14"></div>
+            <div class="common leaf15"></div>
+            <div class="common leaf16"></div>
+       
+        </div>
+    </body>
+</html>
+-
